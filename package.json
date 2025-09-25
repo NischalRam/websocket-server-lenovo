@@ -1,0 +1,19 @@
+{
+  "name": "websocket-server",
+  "version": "1.0.0",
+  "description": "A simple WebSocket server with channels",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^10.0.0",
+    "ws": "^8.0.0"
+  },
+  "author": {
+    "name": "Boban Stefanovic",
+    "email": "bstefanovic@teamhgs.com"
+  },
+  "license": "MIT"
+}
