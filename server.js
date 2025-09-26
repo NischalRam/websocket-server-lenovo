@@ -4,7 +4,8 @@ const url = require("url");
 
 // Create a WebSocket server on port 8090
 
-const wss = new WebSocket.Server({ port: 8090 });
+const port = process.env.PORT || 8090;
+const wss = new WebSocket.Server({ port });
 
 // Map to store users and their corresponding WebSocket connections
 const users = new Map();
